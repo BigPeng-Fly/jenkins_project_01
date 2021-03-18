@@ -20,6 +20,11 @@ class TestReport:
         assert 0, '出错'
 
     @allure.title('浅见')
-    def test_03(self):
+    def test_04(self):
         print('test_03')
         assert 0, '出错'
+
+    @allure.title('第五步')
+    def test_05(self):
+        print('test_03')
+        assert 1
