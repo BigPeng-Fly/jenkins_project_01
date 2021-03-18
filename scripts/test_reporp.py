@@ -18,3 +18,8 @@ class TestReport:
     def test_03(self):
         print('test_03')
         assert 0, '出错'
+
+    @allure.title('浅见')
+    def test_03(self):
+        print('test_03')
+        assert 0, '出错'
